@@ -3,27 +3,27 @@ error_reporting(0);
 
 if ($_GET['run']) {
   exec("open Terminal");
-  exec("open res/mount.command");
+  exec("open mount.command");
 }
 
 if ($_GET['run2']) {
   exec("open Terminal");
-  exec("open res/icloud.command");
+  exec("open icloud.command");
 }
 
 if ($_GET['run3']) {
   exec("open Terminal");
-  exec("open res/jailbreak.command");
+  exec("open jailbreak.command");
 }
 
 if ($_GET['run4']) {
   exec("open Terminal");
-  exec("open res/rw.command");
+  exec("open rw.command");
 }
 
 if ($_GET['run5']) {
   exec("open Terminal");
-  exec("open res/kill.command");
+  exec("open kill.command");
 }
 ?>
 <h1>OpenWeb</h1>
